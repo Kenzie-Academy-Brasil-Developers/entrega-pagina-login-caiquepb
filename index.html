@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/globalStyles.css">
     <link rel="stylesheet" href="./src/styles/index.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <script src="./src/scripts/modal.js" defer></script>
+    <title>Login Kenzie</title>
 </head>
 <body>
-    <script src="./src/scripts/modal.js"></script>
+    <aside class="aside__container">
+        <img
+            class="aside__img"
+            src="./src/img/kenzie.svg"
+            alt="logo kenzie"
+        />
+        <p class="aside__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </aside>
+    <main class="main__container">
+        <form class="main__form">
+            <h1 class="form__title">Login</h1>
+            <div class="form__block">
+                <label class="form__item--label" for="emailLogin">Email:</label>
+                <input class="main__input" name="emailLogin" id="emailLogin" type="text">
+            </div>
+            <div class="form__block">
+                <label class="form__item--label" for="password">Senha:</label>
+                <input class="main__input" name="password" id="password" type="password">
+            </div>
+            <p class="form__item--text">Esqueceu a senha?</p>
+            <button class="main__button" type="submit" id="subBtn">Enviar</button>
+        </form>
+    </main>
 </body>
 </html>

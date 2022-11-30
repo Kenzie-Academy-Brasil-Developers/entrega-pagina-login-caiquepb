@@ -1,1 +1,99 @@
-/* Desenvolva seu código aqui... */
+body{
+    display: flex;
+}
+
+.aside__container {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-brand-3);
+}
+
+.aside__img {
+    width: 185px;
+    height: 140px;
+}
+
+.aside__text {
+    color: var(--color-grey-4);
+    margin: 64px;
+    font-size: 32px;
+}
+
+.main__container {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--color-brand-5);
+}
+
+.main__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form__title {
+    color: #212529;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 64px 64px 64px 20px;
+    align-self: flex-start;
+}
+
+.form__block {
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.form__item--label, .form__item--text {
+    color: var(--color-grey-2);
+    font-size: 16px;
+    margin: 0px 0px 5px 8px;
+}
+
+.form__item--text {
+    align-self: flex-end;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.form__item--text:hover {
+    color: var(--color-grey-1);
+    background-color: var(--color-grey-2);
+    border-radius: 5px;
+    
+}
+
+.main__input {
+    width: 600px;
+    height: 60px;
+    border: 0;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 16px;
+    color: var(--color-grey-2);
+    margin-top: 5px;
+}
+
+.main__button {
+    border: 0;
+    background-color: var(--color-brand-4);
+    width: 600px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 24px;
+    margin-top: 100px;
+    transition: 0.2s;
+}
+
+.main__button:hover {
+    background-color: var(--color-brand-2);
+}

@@ -5,11 +5,16 @@
 }
 
 :root{
-    --color-primary: /* definir */;
-    --color-grey-1: #191C1F;
-    --color-grey-2: #212529;
-    --color-grey-3: #343A40;
-    --color-grey-4: #ADB5BD;
-    --color-grey-5: #CED4DA;
-    --color-grey-6: #EDF2FF;
+    --color-grey-1: #212529;
+    --color-grey-2: #868E96;
+    --color-grey-3: #ADB5BD;
+    --color-grey-4: #E9ECEF;
+    --color-grey-5: #F1F3F5;
+    --color-grey-6: #F8F9FA;
+    --color-brand-1: #1864ab;
+    --color-brand-2: #1c7ed6;
+    --color-brand-3: #339af0;
+    --color-brand-4: #74c0fc;
+    --color-brand-5: #d0ebff;
+    --color-brand-6: #e7f5ff;
 }
